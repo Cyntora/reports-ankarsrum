@@ -143,12 +143,9 @@ section.page--dark .eyebrow { color: var(--ink-muted-dark); }
   border-bottom: 1px solid var(--border-dark);
   position: relative;
 }
-.cover::after {
-  content: ""; position: absolute;
-  left: 5vw; right: 5vw; bottom: 6vh; height: 1px;
-  background: linear-gradient(90deg, var(--brass) 0%, var(--brass) 18%, transparent 18%, transparent 100%);
-  opacity: 0.8;
-}
+/* (Brass accent line removed — it overlapped the cover-notes footer
+   in multi-market reports. The cover-notes top border now carries that
+   visual separation cleanly.) */
 .cover__top { display: flex; align-items: center; justify-content: space-between; }
 .cover__top img { height: 30px; width: auto; }
 .cover__top .meta {
