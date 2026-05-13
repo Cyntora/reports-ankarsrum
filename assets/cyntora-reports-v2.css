@@ -486,16 +486,18 @@ section.page--dark .summary-block p { color: var(--ink-on-dark); }
 }
 /* Cover-notes: small footer-style metadata at very bottom of dark cover.
    First N-1 items rendered as comma-separated inline credits, last item
-   (FX rates) gets its own line in slightly dimmer text. */
+   (FX rates) gets its own line in slightly dimmer text. Width is full
+   content-area (the parent cover already has 5vw horizontal padding,
+   so we don't add more here — that's what was making it look offset). */
 .cover-notes {
-  list-style: none; padding: 0;
-  margin: 24px auto 0;
-  max-width: 1280px;
+  list-style: none;
+  margin: 24px 0 0;
+  padding: 20px 0 0;
   font-family: var(--font-body); font-size: 11.5px;
   line-height: 1.6; color: var(--ink-muted-dark);
   letter-spacing: 0.02em;
-  padding-top: 20px;
   border-top: 1px solid rgba(255, 255, 255, 0.12);
+  text-align: left;
 }
 .cover-notes li {
   display: inline; padding: 0;
