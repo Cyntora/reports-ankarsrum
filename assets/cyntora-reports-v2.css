@@ -292,6 +292,17 @@ section.page--dark .eyebrow { color: var(--ink-muted-dark); }
 }
 .card-grid--asym { grid-template-columns: 1fr 1fr; }
 @media (max-width: 700px) { .card-grid--asym { grid-template-columns: 1fr; } }
+
+/* Cap base .card-grid to MAX 3 columns on wide screens. Without this the
+   `auto-fit` at 220px min spawns 4-5+ narrow cards on 1180px+ containers
+   and headline values + delta chips wrap. Variant grids (--asym, --3)
+   keep their own column counts via the :not() exclusions. */
+@media (min-width: 901px) {
+  .card-grid:not(.card-grid--asym):not(.card-grid--3) {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
 .card--icon { display: none; }
 
 .card {
