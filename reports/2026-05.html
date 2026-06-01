@@ -1,0 +1,738 @@
+<!DOCTYPE html>
+<html lang="sv-SE">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <title>Ankarsrum — Rapport maj 2026 | Cyntora</title>
+  <link rel="icon" type="image/svg+xml" href="../assets/cyntora-favicon.svg">
+  <link rel="apple-touch-icon" href="../assets/cyntora-favicon.svg">
+  <link rel="stylesheet" href="../assets/cyntora-reports-v2.css?v=71e0812c">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Montserrat:wght@400;500;600;700&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap">
+  <style id="client-theme">:root{ --brass:#5C7370; --brass-soft:rgba(92, 115, 112, 0.10); --bg-cream:#FFFFFF; --bg-cream-soft:#F2F2F4; --bg-dark:#1C1C1E; --bg-dark-soft:#2C2C2E; --ink:#1C1C1E; --ink-on-dark:#F2F2F4; --ink-muted:#636366; --ink-muted-dark:#AEAEB2; --border:#E5E5EA; --border-dark:#3A3A3C; --font-display:"Manrope", "Akrobat", sans-serif; --font-body:"Inter", -apple-system, system-ui, sans-serif;  }</style>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.4/dist/chart.umd.min.js" defer></script>
+  <script src="../assets/cyntora-charts.js?v=3039954c" defer></script>
+  <script src="../assets/cyntora-reports.js?v=8b74aa71" defer></script>
+</head>
+<body>
+
+<nav class="report-nav" data-section-nav>
+  <div class="report-nav__inner">
+    <div class="report-nav__brand">
+      <img src="../assets/cyntora-logo.svg" alt="Cyntora">
+      <div class="divider"></div>
+      <div class="label">Ankarsrum</div>
+    </div>
+    <div class="report-nav__links" data-section-links></div>
+    <div class="report-nav__dropdown" data-section-dropdown-wrap>
+      <label for="section-jump">Sektion</label>
+      <select id="section-jump" data-section-jump></select>
+    </div>
+    <div class="report-nav__period">
+      <label for="period">Period</label>
+      <select id="period" data-period-switcher data-current="2026-05" data-index-url="index.json" disabled>
+        <option value="2026-05.html" selected>Maj 2026</option>
+      </select>
+    </div>
+  </div>
+</nav>
+
+
+<section class="cover" id="cover">
+  <div class="cover__top">
+    <img src="../assets/cyntora-logo-white.svg" alt="Cyntora">
+    <div class="meta">
+      Maj 2026
+· Samlad rapport för alla SEM-konton    </div>
+  </div>
+  <div class="cover__center">
+    <div class="cover__eyebrow">Cyntora månadsrapport</div>
+    <h1>Ankarsrum</h1>
+    <div style="font-family:var(--font-display);font-size:clamp(20px,2vw,28px);color:var(--ink-muted-dark);margin-top:14px;font-weight:300;font-style:italic;">Summering av maj 2026</div>
+      <p class="cover__kicker">Maj 2026 var en stark månad for Ankarsrums samlade portfölj med totalt 1 427 ordrar tvärs alla åtta marknader och samlade Google Ads-utgifter om 128 729 SEK som genererade ett spårat konverteringsvärde om 2 156 229 SEK, portfolioROAS 16,75.</p>
+<p class="cover__kicker">USA stod for den absolut starkaste prestationen med ROAS 53 och 836 ordrar, följt av Kanada med ROAS 8,6 och 83 ordrar. Sverige fortsatte med stark tillväxt tack vare 86 procent mer trafik jämfört med maj 2025 och en WooCommerce-omsättning om 764 570 SEK. Marknader som Norge och Danmark visar att Google Ads-spårning behöver granskas eftersom det spårade konverteringsvärdet understiger annonskostnaden trots normal WooCommerce-aktivitet.</p>  </div>
+  <div class="cover__bottom">
+    <div class="col">
+      <div class="label">Period</div>
+      <div class="val">Maj 2026</div>
+    </div>
+    <div class="col">
+      <div class="label">Datakällor</div>
+      <div class="val">GA4, GSC, Google Ads, Shopify, WooCommerce, SE Ranking</div>
+    </div>
+    <div class="col">
+      <div class="label">Levererat av</div>
+      <div class="val">Cyntora</div>
+    </div>
+  </div>
+  <ul class="cover-notes">
+<li>Data för samtliga Google Ads-konton hanterade av Cyntora</li><li>Jämförelse mot samma månad föregående år</li><li>Alla belopp visas i SEK (omräknat från lokal valuta enligt månadens ECB-snittkurs)</li><li>Kurs: 1 CAD = 6,78 SEK · 1 CHF = 11,87 SEK · 1 DKK = 1,45 SEK · 1 EUR = 10,86 SEK · 1 GBP = 12,55 SEK · 1 NOK = 1,01 SEK · 1 USD = 9,30 SEK (snitt maj 2026, ECB)</li>  </ul>
+</section>
+
+<section class="page page--paper">
+  <div class="wrap">
+    <div class="section" id="section-market-ankarsrum-se" data-section-id="market-ankarsrum-se" data-section-title="Sverige">
+  <div class="section-title">
+    <span>Sverige</span>
+  </div>
+
+
+    <div class="band">SEM - Sverige</div><div class="card-grid"><div class="card">
+  <div class="card__head">
+    <div class="label">
+<img src="../assets/icons/google-ads.svg" alt="">      Konverteringar
+    </div>
+<div class="sub">Sverige</div>      <span class="trend trend--up">+126% YoY</span>
+  </div>
+    <div class="card__value card__value--big">73,35</div>
+</div><div class="card">
+  <div class="card__head">
+    <div class="label">
+<img src="../assets/icons/google-ads.svg" alt="">      Konverteringsvärde
+    </div>
+<div class="sub">Sverige</div>  </div>
+    <div class="card__value card__value--big">SEK 290,84 K</div>
+</div><div class="card">
+  <div class="card__head">
+    <div class="label">
+<img src="../assets/icons/google-ads.svg" alt="">      Konverteringsvärde/Kostnad
+    </div>
+<div class="sub">Sverige</div>      <span class="trend trend--up">+264% YoY</span>
+  </div>
+    <div class="card__value card__value--big">6,69</div>
+</div><div class="card">
+  <div class="card__head">
+    <div class="label">
+<img src="../assets/icons/google-ads.svg" alt="">      Kostnad
+    </div>
+<div class="sub">Sverige</div>      <span class="trend trend--up">+97% YoY</span>
+  </div>
+    <div class="card__value card__value--big">SEK 43,47 K</div>
+</div><div class="card">
+  <div class="card__head">
+    <div class="label">
+<img src="../assets/icons/google-ads.svg" alt="">      Exponeringar
+    </div>
+<div class="sub">Sverige</div>      <span class="trend trend--up">+140% YoY</span>
+  </div>
+    <div class="card__value card__value--big">191 853</div>
+</div><div class="card">
+  <div class="card__head">
+    <div class="label">
+<img src="../assets/icons/google-ads.svg" alt="">      Klick
+    </div>
+<div class="sub">Sverige</div>      <span class="trend trend--up">+37% YoY</span>
+  </div>
+    <div class="card__value card__value--big">5 450</div>
+</div><div class="card">
+  <div class="card__head">
+    <div class="label">
+<img src="../assets/icons/google-ads.svg" alt="">      Klickfrekvens
+    </div>
+<div class="sub">Sverige</div>      <span class="trend trend--down">-43% YoY</span>
+  </div>
+    <div class="card__value card__value--big">2.84%</div>
+</div></div><div class="band">WooCommerce - Sverige</div><div class="card-grid"><div class="card">
+  <div class="card__head">
+    <div class="label">
+<img src="../assets/icons/woocommerce.svg" alt="">      Ordrar
+    </div>
+<div class="sub">Sverige</div>  </div>
+    <div class="card__value card__value--big">172</div>
+</div><div class="card">
+  <div class="card__head">
+    <div class="label">
+<img src="../assets/icons/woocommerce.svg" alt="">      Försäljning
+    </div>
+<div class="sub">Sverige</div>  </div>
+    <div class="card__value card__value--big">SEK 764,57 K</div>
+</div></div>
+
+</div>
+  </div>
+</section>
+<section class="page">
+  <div class="wrap">
+    <div class="section" id="section-market-ankarsrum-no" data-section-id="market-ankarsrum-no" data-section-title="Norge">
+  <div class="section-title">
+    <span>Norge</span>
+  </div>
+
+
+    <div class="band">SEM - Norge</div><div class="card-grid"><div class="card">
+  <div class="card__head">
+    <div class="label">
+<img src="../assets/icons/google-ads.svg" alt="">      Konverteringar
+    </div>
+<div class="sub">Norge</div>      <span class="trend trend--down">-56% YoY</span>
+  </div>
+    <div class="card__value card__value--big">6,05</div>
+</div><div class="card">
+  <div class="card__head">
+    <div class="label">
+<img src="../assets/icons/google-ads.svg" alt="">      Konverteringsvärde
+    </div>
+<div class="sub">Norge</div>      <span class="trend trend--down">-87% YoY</span>
+  </div>
+    <div class="card__value card__value--big">SEK 2,84 K</div>
+</div><div class="card">
+  <div class="card__head">
+    <div class="label">
+<img src="../assets/icons/google-ads.svg" alt="">      Konverteringsvärde/Kostnad
+    </div>
+<div class="sub">Norge</div>      <span class="trend trend--down">-91% YoY</span>
+  </div>
+    <div class="card__value card__value--big">0,28</div>
+</div><div class="card">
+  <div class="card__head">
+    <div class="label">
+<img src="../assets/icons/google-ads.svg" alt="">      Kostnad
+    </div>
+<div class="sub">Norge</div>      <span class="trend trend--up">+44% YoY</span>
+  </div>
+    <div class="card__value card__value--big">SEK 9,99 K</div>
+</div><div class="card">
+  <div class="card__head">
+    <div class="label">
+<img src="../assets/icons/google-ads.svg" alt="">      Exponeringar
+    </div>
+<div class="sub">Norge</div>      <span class="trend trend--up">+52% YoY</span>
+  </div>
+    <div class="card__value card__value--big">109 498</div>
+</div><div class="card">
+  <div class="card__head">
+    <div class="label">
+<img src="../assets/icons/google-ads.svg" alt="">      Klick
+    </div>
+<div class="sub">Norge</div>      <span class="trend trend--down">-2% YoY</span>
+  </div>
+    <div class="card__value card__value--big">1 473</div>
+</div><div class="card">
+  <div class="card__head">
+    <div class="label">
+<img src="../assets/icons/google-ads.svg" alt="">      Klickfrekvens
+    </div>
+<div class="sub">Norge</div>      <span class="trend trend--down">-35% YoY</span>
+  </div>
+    <div class="card__value card__value--big">1.35%</div>
+</div></div><div class="band">WooCommerce - Norge</div><div class="card-grid"><div class="card">
+  <div class="card__head">
+    <div class="label">
+<img src="../assets/icons/woocommerce.svg" alt="">      Ordrar
+    </div>
+<div class="sub">Norge</div>  </div>
+    <div class="card__value card__value--big">47</div>
+</div><div class="card">
+  <div class="card__head">
+    <div class="label">
+<img src="../assets/icons/woocommerce.svg" alt="">      Försäljning
+    </div>
+<div class="sub">Norge</div>  </div>
+    <div class="card__value card__value--big">SEK 53,17 K</div>
+</div></div>
+
+</div>
+  </div>
+</section>
+<section class="page page--paper">
+  <div class="wrap">
+    <div class="section" id="section-market-ankarsrum-dk" data-section-id="market-ankarsrum-dk" data-section-title="Danmark">
+  <div class="section-title">
+    <span>Danmark</span>
+  </div>
+
+
+    <div class="band">SEM - Danmark</div><div class="card-grid"><div class="card">
+  <div class="card__head">
+    <div class="label">
+<img src="../assets/icons/google-ads.svg" alt="">      Konverteringar
+    </div>
+<div class="sub">Danmark</div>      <span class="trend trend--down">-67% YoY</span>
+  </div>
+    <div class="card__value card__value--big">2,00</div>
+</div><div class="card">
+  <div class="card__head">
+    <div class="label">
+<img src="../assets/icons/google-ads.svg" alt="">      Konverteringsvärde
+    </div>
+<div class="sub">Danmark</div>      <span class="trend trend--down">-72% YoY</span>
+  </div>
+    <div class="card__value card__value--big">SEK 4,59 K</div>
+</div><div class="card">
+  <div class="card__head">
+    <div class="label">
+<img src="../assets/icons/google-ads.svg" alt="">      Konverteringsvärde/Kostnad
+    </div>
+<div class="sub">Danmark</div>      <span class="trend trend--down">-87% YoY</span>
+  </div>
+    <div class="card__value card__value--big">0,61</div>
+</div><div class="card">
+  <div class="card__head">
+    <div class="label">
+<img src="../assets/icons/google-ads.svg" alt="">      Kostnad
+    </div>
+<div class="sub">Danmark</div>      <span class="trend trend--up">+115% YoY</span>
+  </div>
+    <div class="card__value card__value--big">SEK 7,51 K</div>
+</div><div class="card">
+  <div class="card__head">
+    <div class="label">
+<img src="../assets/icons/google-ads.svg" alt="">      Exponeringar
+    </div>
+<div class="sub">Danmark</div>      <span class="trend trend--up">+53% YoY</span>
+  </div>
+    <div class="card__value card__value--big">79 934</div>
+</div><div class="card">
+  <div class="card__head">
+    <div class="label">
+<img src="../assets/icons/google-ads.svg" alt="">      Klick
+    </div>
+<div class="sub">Danmark</div>      <span class="trend trend--up">+10% YoY</span>
+  </div>
+    <div class="card__value card__value--big">1 033</div>
+</div><div class="card">
+  <div class="card__head">
+    <div class="label">
+<img src="../assets/icons/google-ads.svg" alt="">      Klickfrekvens
+    </div>
+<div class="sub">Danmark</div>      <span class="trend trend--down">-28% YoY</span>
+  </div>
+    <div class="card__value card__value--big">1.29%</div>
+</div></div><div class="band">WooCommerce - Danmark</div><div class="card-grid"><div class="card">
+  <div class="card__head">
+    <div class="label">
+<img src="../assets/icons/woocommerce.svg" alt="">      Ordrar
+    </div>
+<div class="sub">Danmark</div>  </div>
+    <div class="card__value card__value--big">20</div>
+</div><div class="card">
+  <div class="card__head">
+    <div class="label">
+<img src="../assets/icons/woocommerce.svg" alt="">      Försäljning
+    </div>
+<div class="sub">Danmark</div>  </div>
+    <div class="card__value card__value--big">SEK 50,06 K</div>
+</div></div>
+
+</div>
+  </div>
+</section>
+<section class="page">
+  <div class="wrap">
+    <div class="section" id="section-market-ankarsrum-us" data-section-id="market-ankarsrum-us" data-section-title="USA">
+  <div class="section-title">
+    <span>USA</span>
+  </div>
+
+
+    <div class="band">SEM - USA</div><div class="card-grid"><div class="card">
+  <div class="card__head">
+    <div class="label">
+<img src="../assets/icons/google-ads.svg" alt="">      Konverteringar
+    </div>
+<div class="sub">USA</div>      <span class="trend trend--up">+72% YoY</span>
+  </div>
+    <div class="card__value card__value--big">303,64</div>
+</div><div class="card">
+  <div class="card__head">
+    <div class="label">
+<img src="../assets/icons/google-ads.svg" alt="">      Konverteringsvärde
+    </div>
+<div class="sub">USA</div>      <span class="trend trend--up">+124% YoY</span>
+  </div>
+    <div class="card__value card__value--big">SEK 1,59 M</div>
+</div><div class="card">
+  <div class="card__head">
+    <div class="label">
+<img src="../assets/icons/google-ads.svg" alt="">      Konverteringsvärde/Kostnad
+    </div>
+<div class="sub">USA</div>      <span class="trend trend--up">+95% YoY</span>
+  </div>
+    <div class="card__value card__value--big">53,10</div>
+</div><div class="card">
+  <div class="card__head">
+    <div class="label">
+<img src="../assets/icons/google-ads.svg" alt="">      Kostnad
+    </div>
+<div class="sub">USA</div>      <span class="trend trend--up">+15% YoY</span>
+  </div>
+    <div class="card__value card__value--big">SEK 29,98 K</div>
+</div><div class="card">
+  <div class="card__head">
+    <div class="label">
+<img src="../assets/icons/google-ads.svg" alt="">      Exponeringar
+    </div>
+<div class="sub">USA</div>      <span class="trend trend--up">+240% YoY</span>
+  </div>
+    <div class="card__value card__value--big">416 229</div>
+</div><div class="card">
+  <div class="card__head">
+    <div class="label">
+<img src="../assets/icons/google-ads.svg" alt="">      Klick
+    </div>
+<div class="sub">USA</div>      <span class="trend trend--up">+124% YoY</span>
+  </div>
+    <div class="card__value card__value--big">13 218</div>
+</div><div class="card">
+  <div class="card__head">
+    <div class="label">
+<img src="../assets/icons/google-ads.svg" alt="">      Klickfrekvens
+    </div>
+<div class="sub">USA</div>      <span class="trend trend--down">-34% YoY</span>
+  </div>
+    <div class="card__value card__value--big">3.18%</div>
+</div></div><div class="band">WooCommerce - USA</div><div class="card-grid"><div class="card">
+  <div class="card__head">
+    <div class="label">
+<img src="../assets/icons/woocommerce.svg" alt="">      Ordrar
+    </div>
+<div class="sub">USA</div>  </div>
+    <div class="card__value card__value--big">836</div>
+</div><div class="card">
+  <div class="card__head">
+    <div class="label">
+<img src="../assets/icons/woocommerce.svg" alt="">      Försäljning
+    </div>
+<div class="sub">USA</div>  </div>
+    <div class="card__value card__value--big">SEK 4,48 M</div>
+</div></div>
+
+</div>
+  </div>
+</section>
+<section class="page page--paper">
+  <div class="wrap">
+    <div class="section" id="section-market-ankarsrum-ch" data-section-id="market-ankarsrum-ch" data-section-title="Schweiz">
+  <div class="section-title">
+    <span>Schweiz</span>
+  </div>
+
+
+    <div class="band">SEM - Schweiz</div><div class="card-grid"><div class="card">
+  <div class="card__head">
+    <div class="label">
+<img src="../assets/icons/google-ads.svg" alt="">      Konverteringar
+    </div>
+<div class="sub">Schweiz</div>  </div>
+    <div class="card__value card__value--big">1,00</div>
+</div><div class="card">
+  <div class="card__head">
+    <div class="label">
+<img src="../assets/icons/google-ads.svg" alt="">      Konverteringsvärde
+    </div>
+<div class="sub">Schweiz</div>  </div>
+    <div class="card__value card__value--big">SEK 1,89 K</div>
+</div><div class="card">
+  <div class="card__head">
+    <div class="label">
+<img src="../assets/icons/google-ads.svg" alt="">      Konverteringsvärde/Kostnad
+    </div>
+<div class="sub">Schweiz</div>  </div>
+    <div class="card__value card__value--big">1,12</div>
+</div><div class="card">
+  <div class="card__head">
+    <div class="label">
+<img src="../assets/icons/google-ads.svg" alt="">      Kostnad
+    </div>
+<div class="sub">Schweiz</div>  </div>
+    <div class="card__value card__value--big">SEK 1,68 K</div>
+</div><div class="card">
+  <div class="card__head">
+    <div class="label">
+<img src="../assets/icons/google-ads.svg" alt="">      Exponeringar
+    </div>
+<div class="sub">Schweiz</div>  </div>
+    <div class="card__value card__value--big">12 990</div>
+</div><div class="card">
+  <div class="card__head">
+    <div class="label">
+<img src="../assets/icons/google-ads.svg" alt="">      Klick
+    </div>
+<div class="sub">Schweiz</div>  </div>
+    <div class="card__value card__value--big">256</div>
+</div><div class="card">
+  <div class="card__head">
+    <div class="label">
+<img src="../assets/icons/google-ads.svg" alt="">      Klickfrekvens
+    </div>
+<div class="sub">Schweiz</div>  </div>
+    <div class="card__value card__value--big">1.97%</div>
+</div></div><div class="band">WooCommerce - Schweiz</div><div class="card-grid"><div class="card">
+  <div class="card__head">
+    <div class="label">
+<img src="../assets/icons/woocommerce.svg" alt="">      Ordrar
+    </div>
+<div class="sub">Schweiz</div>  </div>
+    <div class="card__value card__value--big">10</div>
+</div><div class="card">
+  <div class="card__head">
+    <div class="label">
+<img src="../assets/icons/woocommerce.svg" alt="">      Försäljning
+    </div>
+<div class="sub">Schweiz</div>  </div>
+    <div class="card__value card__value--big">SEK 48,49 K</div>
+</div></div>
+
+</div>
+  </div>
+</section>
+<section class="page">
+  <div class="wrap">
+    <div class="section" id="section-market-ankarsrum-uk" data-section-id="market-ankarsrum-uk" data-section-title="Storbritannien">
+  <div class="section-title">
+    <span>Storbritannien</span>
+  </div>
+
+
+    <div class="band">SEM - Storbritannien</div><div class="card-grid"><div class="card">
+  <div class="card__head">
+    <div class="label">
+<img src="../assets/icons/google-ads.svg" alt="">      Konverteringar
+    </div>
+<div class="sub">Storbritannien</div>      <span class="trend trend--up">+38% YoY</span>
+  </div>
+    <div class="card__value card__value--big">6,00</div>
+</div><div class="card">
+  <div class="card__head">
+    <div class="label">
+<img src="../assets/icons/google-ads.svg" alt="">      Konverteringsvärde
+    </div>
+<div class="sub">Storbritannien</div>      <span class="trend trend--up">+39% YoY</span>
+  </div>
+    <div class="card__value card__value--big">SEK 50,64 K</div>
+</div><div class="card">
+  <div class="card__head">
+    <div class="label">
+<img src="../assets/icons/google-ads.svg" alt="">      Konverteringsvärde/Kostnad
+    </div>
+<div class="sub">Storbritannien</div>      <span class="trend trend--up">+20% YoY</span>
+  </div>
+    <div class="card__value card__value--big">5,29</div>
+</div><div class="card">
+  <div class="card__head">
+    <div class="label">
+<img src="../assets/icons/google-ads.svg" alt="">      Kostnad
+    </div>
+<div class="sub">Storbritannien</div>      <span class="trend trend--up">+16% YoY</span>
+  </div>
+    <div class="card__value card__value--big">SEK 9,57 K</div>
+</div><div class="card">
+  <div class="card__head">
+    <div class="label">
+<img src="../assets/icons/google-ads.svg" alt="">      Exponeringar
+    </div>
+<div class="sub">Storbritannien</div>      <span class="trend trend--down">-76% YoY</span>
+  </div>
+    <div class="card__value card__value--big">43 359</div>
+</div><div class="card">
+  <div class="card__head">
+    <div class="label">
+<img src="../assets/icons/google-ads.svg" alt="">      Klick
+    </div>
+<div class="sub">Storbritannien</div>      <span class="trend trend--down">-65% YoY</span>
+  </div>
+    <div class="card__value card__value--big">1 170</div>
+</div><div class="card">
+  <div class="card__head">
+    <div class="label">
+<img src="../assets/icons/google-ads.svg" alt="">      Klickfrekvens
+    </div>
+<div class="sub">Storbritannien</div>      <span class="trend trend--up">+46% YoY</span>
+  </div>
+    <div class="card__value card__value--big">2.70%</div>
+</div></div><div class="band">WooCommerce - Storbritannien</div><div class="card-grid"><div class="card">
+  <div class="card__head">
+    <div class="label">
+<img src="../assets/icons/woocommerce.svg" alt="">      Ordrar
+    </div>
+<div class="sub">Storbritannien</div>  </div>
+    <div class="card__value card__value--big">39</div>
+</div><div class="card">
+  <div class="card__head">
+    <div class="label">
+<img src="../assets/icons/woocommerce.svg" alt="">      Försäljning
+    </div>
+<div class="sub">Storbritannien</div>  </div>
+    <div class="card__value card__value--big">SEK 276,43 K</div>
+</div></div>
+
+</div>
+  </div>
+</section>
+<section class="page page--paper">
+  <div class="wrap">
+    <div class="section" id="section-market-ankarsrum-de" data-section-id="market-ankarsrum-de" data-section-title="Tyskland">
+  <div class="section-title">
+    <span>Tyskland</span>
+  </div>
+
+
+    <div class="band">SEM - Tyskland</div><div class="card-grid"><div class="card">
+  <div class="card__head">
+    <div class="label">
+<img src="../assets/icons/google-ads.svg" alt="">      Konverteringar
+    </div>
+<div class="sub">Tyskland</div>      <span class="trend trend--up">+127% YoY</span>
+  </div>
+    <div class="card__value card__value--big">72,00</div>
+</div><div class="card">
+  <div class="card__head">
+    <div class="label">
+<img src="../assets/icons/google-ads.svg" alt="">      Konverteringsvärde
+    </div>
+<div class="sub">Tyskland</div>      <span class="trend trend--up">+123% YoY</span>
+  </div>
+    <div class="card__value card__value--big">SEK 282,99 K</div>
+</div><div class="card">
+  <div class="card__head">
+    <div class="label">
+<img src="../assets/icons/google-ads.svg" alt="">      Konverteringsvärde/Kostnad
+    </div>
+<div class="sub">Tyskland</div>      <span class="trend trend--down">-46% YoY</span>
+  </div>
+    <div class="card__value card__value--big">5,42</div>
+</div><div class="card">
+  <div class="card__head">
+    <div class="label">
+<img src="../assets/icons/google-ads.svg" alt="">      Kostnad
+    </div>
+<div class="sub">Tyskland</div>  </div>
+    <div class="card__value card__value--big">SEK 52,19 K</div>
+</div><div class="card">
+  <div class="card__head">
+    <div class="label">
+<img src="../assets/icons/google-ads.svg" alt="">      Exponeringar
+    </div>
+<div class="sub">Tyskland</div>  </div>
+    <div class="card__value card__value--big">238 072</div>
+</div><div class="card">
+  <div class="card__head">
+    <div class="label">
+<img src="../assets/icons/google-ads.svg" alt="">      Klick
+    </div>
+<div class="sub">Tyskland</div>  </div>
+    <div class="card__value card__value--big">6 626</div>
+</div><div class="card">
+  <div class="card__head">
+    <div class="label">
+<img src="../assets/icons/google-ads.svg" alt="">      Klickfrekvens
+    </div>
+<div class="sub">Tyskland</div>  </div>
+    <div class="card__value card__value--big">2.78%</div>
+</div></div><div class="band">Shopify - Tyskland</div><div class="card-grid"><div class="card">
+  <div class="card__head">
+    <div class="label">
+<img src="../assets/icons/woocommerce.svg" alt="">      Ordrar
+    </div>
+<div class="sub">Tyskland</div>  </div>
+    <div class="card__value card__value--big">220</div>
+</div><div class="card">
+  <div class="card__head">
+    <div class="label">
+<img src="../assets/icons/woocommerce.svg" alt="">      Försäljning
+    </div>
+<div class="sub">Tyskland</div>  </div>
+    <div class="card__value card__value--big">SEK 861,61 K</div>
+</div></div>
+
+</div>
+  </div>
+</section>
+<section class="page">
+  <div class="wrap">
+    <div class="section" id="section-market-ankarsrum-ca" data-section-id="market-ankarsrum-ca" data-section-title="Kanada">
+  <div class="section-title">
+    <span>Kanada</span>
+  </div>
+
+
+    <div class="band">SEM - Kanada</div><div class="card-grid"><div class="card">
+  <div class="card__head">
+    <div class="label">
+<img src="../assets/icons/google-ads.svg" alt="">      Konverteringar
+    </div>
+<div class="sub">Kanada</div>      <span class="trend trend--up">+146% YoY</span>
+  </div>
+    <div class="card__value card__value--big">36,92</div>
+</div><div class="card">
+  <div class="card__head">
+    <div class="label">
+<img src="../assets/icons/google-ads.svg" alt="">      Konverteringsvärde
+    </div>
+<div class="sub">Kanada</div>      <span class="trend trend--up">+140% YoY</span>
+  </div>
+    <div class="card__value card__value--big">SEK 187,24 K</div>
+</div><div class="card">
+  <div class="card__head">
+    <div class="label">
+<img src="../assets/icons/google-ads.svg" alt="">      Konverteringsvärde/Kostnad
+    </div>
+<div class="sub">Kanada</div>      <span class="trend trend--up">+12% YoY</span>
+  </div>
+    <div class="card__value card__value--big">8,62</div>
+</div><div class="card">
+  <div class="card__head">
+    <div class="label">
+<img src="../assets/icons/google-ads.svg" alt="">      Kostnad
+    </div>
+<div class="sub">Kanada</div>      <span class="trend trend--up">+114% YoY</span>
+  </div>
+    <div class="card__value card__value--big">SEK 21,72 K</div>
+</div><div class="card">
+  <div class="card__head">
+    <div class="label">
+<img src="../assets/icons/google-ads.svg" alt="">      Exponeringar
+    </div>
+<div class="sub">Kanada</div>  </div>
+    <div class="card__value card__value--big">107 080</div>
+</div><div class="card">
+  <div class="card__head">
+    <div class="label">
+<img src="../assets/icons/google-ads.svg" alt="">      Klick
+    </div>
+<div class="sub">Kanada</div>  </div>
+    <div class="card__value card__value--big">2 889</div>
+</div><div class="card">
+  <div class="card__head">
+    <div class="label">
+<img src="../assets/icons/google-ads.svg" alt="">      Klickfrekvens
+    </div>
+<div class="sub">Kanada</div>  </div>
+    <div class="card__value card__value--big">2.70%</div>
+</div></div><div class="band">WooCommerce - Kanada</div><div class="card-grid"><div class="card">
+  <div class="card__head">
+    <div class="label">
+<img src="../assets/icons/woocommerce.svg" alt="">      Ordrar
+    </div>
+<div class="sub">Kanada</div>  </div>
+    <div class="card__value card__value--big">83</div>
+</div><div class="card">
+  <div class="card__head">
+    <div class="label">
+<img src="../assets/icons/woocommerce.svg" alt="">      Försäljning
+    </div>
+<div class="sub">Kanada</div>  </div>
+    <div class="card__value card__value--big">SEK 538,54 K</div>
+</div></div>
+
+</div>
+  </div>
+</section>
+
+<section class="page page--dark" id="section-next-steps" data-section-id="next-steps" data-section-title="Vad vi gör härnäst">
+  <div class="wrap">
+    <div class="eyebrow">Vad händer härnäst</div>
+    <div class="next-steps">
+      <h2>Vad vi gör härnäst</h2>
+      <ul>
+<li>Vi kommer att granska Google Ads-konverteringsspårning for Norge och Danmark för att säkerställa att WooCommerce-köp registreras korrekt.</li><li>Vi kommer att se over budgetfördelningen och prioritera USA och Kanada som visar starkast ROAS.</li><li>Vi kommer att analysera bulkordern i Tyskland den 27 maj for att identifiera B2B-segment for riktad annonsering.</li><li>Vi kommer att följa upp Schweiz och CH-marknaden vars Google Ads var pausade under perioden 12-31 maj.</li>      </ul>
+    </div>
+  </div>
+</section>
+
+
+</body>
+</html>
